@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/themify-icons/themify-icons.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <title>The Band</title>
+</head>
+
+<body>
+    <div id="buy-ticket-modal" class="js-close-btn">
+        <div class="modal-container js-modal-container">
+            <div class="close-btn js-close-btn">
+                <i class="ti-close"></i>
+            </div>
+            <div class="header-modal">
+                <h2> <i class="ti-bag"></i> Tickets</h2>
+            </div>
+            <div class="body-modal">
+                <p> <label for="number"><i class="ti-shopping-cart"></i>Tickets, $15 per person</label></p>
+                <input required type="text" placeholder="How many?" name="number">
+                <p><label for="email"><i class="ti-user"></i>Send to</label></p>
+                <input required type="email" placeholder="Enter email" name="email"> <button>Pay<i class="ti-check"></i></button>
+            </div>
+            <div class="footer-modal">
+                <div class="close-btn-2 js-close-btn">Close
+                    <i class="ti-close"></i>
+                </div>
+                <div class="help-line">
+                    <p>Need
+                        <a href="#">help?</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="main">
+        <div id="header">
+            <ul id="nav">
+                <li>
+                    <a href="#slider">Home</a>
+                </li>
+                <li>
+                    <a href="#content">Band</a>
+                </li>
+                <li>
+                    <a href="#tour">Tour</a>
+                </li>
+                <li>
+                    <a href="#contact">Contact</a>
+                </li>
+                <li class="mobile">
+                    <a href="#">Merch</a>
+                </li>
+                <li>
+                    <a href="#">More <i class="ti-angle-down"></i></a>
+                    <ul class="subnav">
+                        <li>
+                            <a href="#">Merchandise</a>
+                        </li>
+                        <li>
+                            <a href="#">Extras</a>
+                        </li>
+                        <li>
+                            <a href="#">Media</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+            <div class="box-search"><i class="ti-search"></i></div>
+            <div class="box-menu"><i class="ti-menu"></i></div>
+
+        </div>
+        <div id="slider">
+            <div class="text-content">
+                <h3 class="text-heading"></h3>
+                <p class="text-description"></p>
+            </div>
+        </div>
+        <div id="content">
+            <div class="content-section">
+                <h2 class="section-heading">THE BAND</h2>
+                <p class="section-sub-heading">We love music</p>
+                <p class="about-content">We have created a fictional band website. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+                    ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim
+                    id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                </p>
+                <div class="member-list">
+                    <div class="member-item col">
+                        <p class="member-name">Name</p>
+                        <img src="./assets/images/content/bandmember.jpeg" alt="name" class="member-img">
+                    </div>
+                    <div class="member-item col">
+                        <p class="member-name">Name</p>
+                        <img src="./assets/images/content/bandmember.jpeg" alt="name" class="member-img">
+                    </div>
+                    <div class="member-item col">
+                        <p class="member-name">Name</p>
+                        <img src="./assets/images/content/bandmember.jpeg" alt="name" class="member-img">
+                    </div>
+                    <div class="clear"></div>
+                </div>
+            </div>
+            <div id="tour" class="container">
+                <div class="content-section">
+                    <h2 class="section-heading">TOUR DATES</h2>
+                    <p class="section-sub-heading">Remember to book your tickets!</p>
+                    <br>
+                    <ul class="number-ticket">
+                        <li>Septemper <span>Sold out</span></li>
+                        <li>October <span>Sold out</span></li>
+                        <li>November <span>3</span></li>
+                    </ul>
+                    <div class="ticket-list">
+                        <div class="ticket-item col ">
+                            <img src="./assets/images/content/newyork.jpeg" alt="newyork" class="ticket-img">
+                            <div class="place">
+                                <h3>New York</h3>
+                                <p class="opacity">Fri 27 Nov 2016</p>
+                                <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                                <button class=" ticket-btn js-buy-ticket ">
+                                    Buy Ticket</button>
+                            </div>
+                        </div>
+                        <div class="ticket-item col ">
+                            <img src="./assets/images/content/paris.jpeg " alt="paris " class="ticket-img ">
+                            <div class="place ">
+                                <h3>Paris</h3>
+                                <p class="opacity ">Sat 28 Nov 2016</p>
+                                <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                                <button class="ticket-btn js-buy-ticket"> Buy Ticket</button>
+                            </div>
+                        </div>
+                        <div class="ticket-item col ">
+                            <img src="./assets/images/content/sanfran.jpeg" alt="sanfran " class="ticket-img ">
+                            <div class="place">
+                                <h3>San Francisco</h3>
+                                <p class="opacity">Sun 29 Nov 2016</p>
+                                <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                                <button class=" ticket-btn js-buy-ticket ">
+                                    Buy Ticket</button>
+                            </div>
+                        </div>
+                        <div class="clear "></div>
+                    </div>
+                </div>
+            </div>
+            <div id="contact" class="content-section ">
+                <h2 class="section-heading ">CONTACT</h2>
+                <p class="section-sub-heading ">Fan? Drop a note!</p>
+                <br>
+                <div class="form ">
+                    <div class="contact-form col-2 ">
+                        <i class="ti-location-pin "></i>
+                        <span> Chicago, US</span>
+                        <br>
+                        <i class="ti-mobile "></i>
+                        <span> Phone: +00 151515</span>
+                        <br>
+                        <i class="ti-email "></i>
+                        <span> Email: mail@mail.com</span>
+                    </div>
+                    <div class="input-form col-2 ">
+                        <div class="name-email-input ">
+                            <div class="name-input col-2 ">
+                                <input required type="text " placeholder="Name ">
+                            </div>
+                            <div class="email-input col-2 ">
+                                <input type="email " placeholder="Email ">
+                            </div>
+                            <div class="clear "></div>
+
+                        </div>
+                        <div class="message-input ">
+                            <input type="message " placeholder="Message ">
+                        </div>
+                        <button class="send-btn ">SEND</button>
+
+                    </div>
+                    <div class="clear "></div>
+                </div>
+            </div>
+            <img src="./assets/images/content/map.jpeg" alt="map " class="map ">
+        </div>
+        <div id="footer">
+            <i class="ti-facebook "></i>
+            <i class="ti-instagram "></i>
+            <i class="ti-github "></i>
+            <i class="ti-pinterest "></i>
+            <i class="ti-linkedin "></i>
+            <i class="ti-twitter "></i>
+            <p> Power by
+                <a href="https://www.w3schools.com/w3css/default.asp " target="_blank ">w3.css</a>
+            </p>
+        </div>
+    </div>
+</body>
+<script src="./assets/script.js ">
+</script>
+
+<script>
+    const buyBtns = document.getElementsByClassName("js-buy-ticket");
+    const closeBtns = document.getElementsByClassName("js-close-btn");
+    const modalContainer = document.getElementsByClassName("js-modal-container");
+
+    function openModal() {
+        document.getElementById("buy-ticket-modal").style.display = "flex";
+    }
+
+    function closeModal() {
+        document.getElementById("buy-ticket-modal").style.display = "none";
+    }
+    for (let buyBtn of buyBtns) {
+        buyBtn.addEventListener("click", openModal);
+    }
+    for (let buyBtn of closeBtns) {
+        buyBtn.addEventListener("click", closeModal);
+    }
+    modalContainer[0].addEventListener("click", function(event) {
+        event.stopPropagation();
+    });
+</script>
+<script>
+    const header = document.getElementById("header");
+    const menuBtns = document.getElementsByClassName("box-menu");
+    const mergeBtn = document.getElementsByClassName("mobile")
+    const listItemATags = document.querySelectorAll('#nav li a[href*="#"]')
+    let headerHeight = header.style.height;
+    menuBtns[0].onclick = function() {
+        if (header.style.height === headerHeight) {
+            header.style.height = "auto"
+        } else {
+            header.style.height = headerHeight;
+        }
+    }
+    mergeBtn[0].onclick = function() {
+        header.style.height = headerHeight;
+    }
+
+    for (let j in listItemATags) {
+        if (listItemATags[j].href != "#" && j != 0) {
+            listItemATags[j].onclick = function() {
+                header.style.height = headerHeight;
+            }
+        }
+    }
+</script>
+
+</html>
+
+</html>
+
+</html>

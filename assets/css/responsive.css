@@ -1,0 +1,107 @@
+    @media (min-width: 740px) and (max-width: 1023px) {
+        #buy-ticket-modal .modal-container {
+            width: 600px;
+            max-width: calc(100% - 64px);
+        }
+        #content .content-section {
+            padding: 64px 32px;
+        }
+        .col-2 {
+            width: 50%;
+        }
+        .name-input,
+        .email-input,
+        .message-input,
+        .input-form input {
+            padding: 0!important;
+            margin: 0;
+        }
+        .name-input input,
+        .email-input input,
+        .message-input input {
+            width: 100%;
+            padding: 8px 16px !important;
+        }
+        .name-input.col-2 {
+            padding-right: 8px!important;
+        }
+        .email-input.col-2 {
+            padding-left: 8px!important;
+        }
+        .message-input {
+            margin: 8px 0;
+        }
+    }
+    
+    @media (max-width: 740px) {
+        #buy-ticket-modal .modal-container {
+            width: 400px;
+            max-width: calc(100% - 64px);
+        }
+        .col,
+        .col-2 {
+            float: none;
+            width: 100%;
+            display: inline;
+        }
+        #content .content-section {
+            padding: 64px 32px;
+        }
+        .content-section .ticket-list {
+            margin: 0;
+        }
+        .name-input input,
+        .email-input input,
+        .message-input input {
+            width: 100%;
+            padding: 8px 16px !important;
+        }
+        .input-form .name-input input {
+            margin: 8px 0;
+        }
+        .contact-form {
+            width: 100%;
+        }
+        .input-form .name-input,
+        .input-form .email-input {
+            padding: 0;
+        }
+        .message-input {
+            margin: 8px 0;
+        }
+        .send-btn {
+            margin: 8px 0;
+        }
+        #slider .text-content {
+            display: none;
+        }
+        #header {
+            overflow: hidden;
+        }
+        #nav {
+            display: block;
+        }
+        #nav .mobile,
+        #nav li {
+            display: inline;
+        }
+        #nav li:first-child {
+            display: inline-block
+        }
+        #nav li:last-child {
+            display: none;
+        }
+        .box-search {
+            display: none
+        }
+        #header .box-menu {
+            display: inline-block;
+            position: absolute;
+            color: #fff;
+            padding: 0 24px;
+            font-size: 20px;
+            top: 0;
+            right: 0;
+            line-height: 46px;
+        }
+    }
